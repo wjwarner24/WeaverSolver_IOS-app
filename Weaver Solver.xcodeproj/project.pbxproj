@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3292354B299C2D5200C27DF2 /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3292354A299C2D5100C27DF2 /* dictionary.txt */; };
+		3292354D299C311C00C27DF2 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292354C299C311C00C27DF2 /* Graph.swift */; };
+		32AF5D86299DF0E60069CB9B /* edges.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32AF5D85299DF0E60069CB9B /* edges.txt */; };
+		32BE2BEB2994B55F004D4969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE2BEA2994B55F004D4969 /* AppDelegate.swift */; };
+		32BE2BED2994B55F004D4969 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE2BEC2994B55F004D4969 /* SceneDelegate.swift */; };
+		32BE2BEF2994B55F004D4969 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE2BEE2994B55F004D4969 /* ViewController.swift */; };
+		32BE2BF22994B55F004D4969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BE2BF02994B55F004D4969 /* Main.storyboard */; };
+		32BE2BF42994B562004D4969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BE2BF32994B562004D4969 /* Assets.xcassets */; };
+		32BE2BF72994B562004D4969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BE2BF52994B562004D4969 /* LaunchScreen.storyboard */; };
+		32BE2C022994B563004D4969 /* Weaver_SolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE2C012994B563004D4969 /* Weaver_SolverTests.swift */; };
+		32BE2C0C2994B563004D4969 /* Weaver_SolverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE2C0B2994B563004D4969 /* Weaver_SolverUITests.swift */; };
+		32BE2C0E2994B563004D4969 /* Weaver_SolverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE2C0D2994B563004D4969 /* Weaver_SolverUITestsLaunchTests.swift */; };
+		32BE2C412994C730004D4969 /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE2C402994C730004D4969 /* ResultsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BE2BFE2994B563004D4969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BE2BDF2994B55E004D4969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BE2BE62994B55F004D4969;
+			remoteInfo = "Weaver Solver";
+		};
+		32BE2C082994B563004D4969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BE2BDF2994B55E004D4969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BE2BE62994B55F004D4969;
+			remoteInfo = "Weaver Solver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3292354A299C2D5100C27DF2 /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dictionary.txt; path = "../../../CSCI220/project5-bfs-wjwarner24/build/dictionary.txt"; sourceTree = "<group>"; };
+		3292354C299C311C00C27DF2 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		32AF5D85299DF0E60069CB9B /* edges.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = edges.txt; path = "../../../CSCI220/project5-bfs-wjwarner24/build/edges.txt"; sourceTree = "<group>"; };
+		32BE2BE72994B55F004D4969 /* Weaver Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weaver Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BE2BEA2994B55F004D4969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32BE2BEC2994B55F004D4969 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32BE2BEE2994B55F004D4969 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32BE2BF12994B55F004D4969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32BE2BF32994B562004D4969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32BE2BF62994B562004D4969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32BE2BF82994B562004D4969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BE2BFD2994B563004D4969 /* Weaver SolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weaver SolverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BE2C012994B563004D4969 /* Weaver_SolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weaver_SolverTests.swift; sourceTree = "<group>"; };
+		32BE2C072994B563004D4969 /* Weaver SolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weaver SolverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BE2C0B2994B563004D4969 /* Weaver_SolverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weaver_SolverUITests.swift; sourceTree = "<group>"; };
+		32BE2C0D2994B563004D4969 /* Weaver_SolverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weaver_SolverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32BE2C402994C730004D4969 /* ResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BE2BE42994B55F004D4969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE2BFA2994B563004D4969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE2C042994B563004D4969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BE2BDE2994B55E004D4969 = {
+			isa = PBXGroup;
+			children = (
+				32BE2BE92994B55F004D4969 /* Weaver Solver */,
+				32BE2C002994B563004D4969 /* Weaver SolverTests */,
+				32BE2C0A2994B563004D4969 /* Weaver SolverUITests */,
+				32BE2BE82994B55F004D4969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32BE2BE82994B55F004D4969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BE2BE72994B55F004D4969 /* Weaver Solver.app */,
+				32BE2BFD2994B563004D4969 /* Weaver SolverTests.xctest */,
+				32BE2C072994B563004D4969 /* Weaver SolverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BE2BE92994B55F004D4969 /* Weaver Solver */ = {
+			isa = PBXGroup;
+			children = (
+				32AF5D85299DF0E60069CB9B /* edges.txt */,
+				32BE2BEA2994B55F004D4969 /* AppDelegate.swift */,
+				32BE2BEC2994B55F004D4969 /* SceneDelegate.swift */,
+				32BE2BEE2994B55F004D4969 /* ViewController.swift */,
+				3292354C299C311C00C27DF2 /* Graph.swift */,
+				3292354A299C2D5100C27DF2 /* dictionary.txt */,
+				32BE2BF02994B55F004D4969 /* Main.storyboard */,
+				32BE2BF32994B562004D4969 /* Assets.xcassets */,
+				32BE2BF52994B562004D4969 /* LaunchScreen.storyboard */,
+				32BE2BF82994B562004D4969 /* Info.plist */,
+				32BE2C402994C730004D4969 /* ResultsVC.swift */,
+			);
+			path = "Weaver Solver";
+			sourceTree = "<group>";
+		};
+		32BE2C002994B563004D4969 /* Weaver SolverTests */ = {
+			isa = PBXGroup;
+			children = (
+				32BE2C012994B563004D4969 /* Weaver_SolverTests.swift */,
+			);
+			path = "Weaver SolverTests";
+			sourceTree = "<group>";
+		};
+		32BE2C0A2994B563004D4969 /* Weaver SolverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32BE2C0B2994B563004D4969 /* Weaver_SolverUITests.swift */,
+				32BE2C0D2994B563004D4969 /* Weaver_SolverUITestsLaunchTests.swift */,
+			);
+			path = "Weaver SolverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32BE2BE62994B55F004D4969 /* Weaver Solver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BE2C112994B563004D4969 /* Build configuration list for PBXNativeTarget "Weaver Solver" */;
+			buildPhases = (
+				32BE2BE32994B55F004D4969 /* Sources */,
+				32BE2BE42994B55F004D4969 /* Frameworks */,
+				32BE2BE52994B55F004D4969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weaver Solver";
+			productName = "Weaver Solver";
+			productReference = 32BE2BE72994B55F004D4969 /* Weaver Solver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BE2BFC2994B563004D4969 /* Weaver SolverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BE2C142994B563004D4969 /* Build configuration list for PBXNativeTarget "Weaver SolverTests" */;
+			buildPhases = (
+				32BE2BF92994B563004D4969 /* Sources */,
+				32BE2BFA2994B563004D4969 /* Frameworks */,
+				32BE2BFB2994B563004D4969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BE2BFF2994B563004D4969 /* PBXTargetDependency */,
+			);
+			name = "Weaver SolverTests";
+			productName = "Weaver SolverTests";
+			productReference = 32BE2BFD2994B563004D4969 /* Weaver SolverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32BE2C062994B563004D4969 /* Weaver SolverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BE2C172994B563004D4969 /* Build configuration list for PBXNativeTarget "Weaver SolverUITests" */;
+			buildPhases = (
+				32BE2C032994B563004D4969 /* Sources */,
+				32BE2C042994B563004D4969 /* Frameworks */,
+				32BE2C052994B563004D4969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BE2C092994B563004D4969 /* PBXTargetDependency */,
+			);
+			name = "Weaver SolverUITests";
+			productName = "Weaver SolverUITests";
+			productReference = 32BE2C072994B563004D4969 /* Weaver SolverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BE2BDF2994B55E004D4969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					32BE2BE62994B55F004D4969 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					32BE2BFC2994B563004D4969 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 32BE2BE62994B55F004D4969;
+					};
+					32BE2C062994B563004D4969 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 32BE2BE62994B55F004D4969;
+					};
+				};
+			};
+			buildConfigurationList = 32BE2BE22994B55E004D4969 /* Build configuration list for PBXProject "Weaver Solver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32BE2BDE2994B55E004D4969;
+			productRefGroup = 32BE2BE82994B55F004D4969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BE2BE62994B55F004D4969 /* Weaver Solver */,
+				32BE2BFC2994B563004D4969 /* Weaver SolverTests */,
+				32BE2C062994B563004D4969 /* Weaver SolverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32BE2BE52994B55F004D4969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BE2BF72994B562004D4969 /* LaunchScreen.storyboard in Resources */,
+				32AF5D86299DF0E60069CB9B /* edges.txt in Resources */,
+				32BE2BF42994B562004D4969 /* Assets.xcassets in Resources */,
+				3292354B299C2D5200C27DF2 /* dictionary.txt in Resources */,
+				32BE2BF22994B55F004D4969 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE2BFB2994B563004D4969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE2C052994B563004D4969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BE2BE32994B55F004D4969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BE2BEF2994B55F004D4969 /* ViewController.swift in Sources */,
+				32BE2C412994C730004D4969 /* ResultsVC.swift in Sources */,
+				32BE2BEB2994B55F004D4969 /* AppDelegate.swift in Sources */,
+				32BE2BED2994B55F004D4969 /* SceneDelegate.swift in Sources */,
+				3292354D299C311C00C27DF2 /* Graph.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE2BF92994B563004D4969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BE2C022994B563004D4969 /* Weaver_SolverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE2C032994B563004D4969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BE2C0C2994B563004D4969 /* Weaver_SolverUITests.swift in Sources */,
+				32BE2C0E2994B563004D4969 /* Weaver_SolverUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32BE2BFF2994B563004D4969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BE2BE62994B55F004D4969 /* Weaver Solver */;
+			targetProxy = 32BE2BFE2994B563004D4969 /* PBXContainerItemProxy */;
+		};
+		32BE2C092994B563004D4969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BE2BE62994B55F004D4969 /* Weaver Solver */;
+			targetProxy = 32BE2C082994B563004D4969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32BE2BF02994B55F004D4969 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BE2BF12994B55F004D4969 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32BE2BF52994B562004D4969 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BE2BF62994B562004D4969 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32BE2C0F2994B563004D4969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32BE2C102994B563004D4969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BE2C122994B563004D4969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38Q3424WDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weaver Solver/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Warner.Weaver-Solver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BE2C132994B563004D4969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38Q3424WDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weaver Solver/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Warner.Weaver-Solver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32BE2C152994B563004D4969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38Q3424WDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Warner.Weaver-SolverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weaver Solver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weaver Solver";
+			};
+			name = Debug;
+		};
+		32BE2C162994B563004D4969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38Q3424WDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Warner.Weaver-SolverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weaver Solver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weaver Solver";
+			};
+			name = Release;
+		};
+		32BE2C182994B563004D4969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38Q3424WDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Warner.Weaver-SolverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weaver Solver";
+			};
+			name = Debug;
+		};
+		32BE2C192994B563004D4969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38Q3424WDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Warner.Weaver-SolverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weaver Solver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BE2BE22994B55E004D4969 /* Build configuration list for PBXProject "Weaver Solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BE2C0F2994B563004D4969 /* Debug */,
+				32BE2C102994B563004D4969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BE2C112994B563004D4969 /* Build configuration list for PBXNativeTarget "Weaver Solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BE2C122994B563004D4969 /* Debug */,
+				32BE2C132994B563004D4969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BE2C142994B563004D4969 /* Build configuration list for PBXNativeTarget "Weaver SolverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BE2C152994B563004D4969 /* Debug */,
+				32BE2C162994B563004D4969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BE2C172994B563004D4969 /* Build configuration list for PBXNativeTarget "Weaver SolverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BE2C182994B563004D4969 /* Debug */,
+				32BE2C192994B563004D4969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BE2BDF2994B55E004D4969 /* Project object */;
+}
